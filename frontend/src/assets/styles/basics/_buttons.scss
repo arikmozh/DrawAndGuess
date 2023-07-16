@@ -1,0 +1,33 @@
+.primary-btn {
+  background-color: cornflowerblue;
+  border: none;
+  color: #fff;
+  margin-right: 4px;
+  padding: 6px 12px;
+  border-radius: 3px;
+  font-size: 0.875rem;
+  width: 100px;
+  height: 35px;
+  font-size: rem(16px);
+
+  &:hover {
+    background-color: #4877d0;
+    box-shadow: none;
+  }
+
+  @media (min-width: 700px) {
+    width: 120px;
+    height: 50px;
+    font-size: rem(18px);
+  }
+}
+
+.secondary-btn {
+  background-color: #b04632;
+  border: none;
+  color: #fff;
+  margin-right: 4px;
+  padding: 6px 12px;
+  border-radius: 3px;
+  font-size: rem(14px);
+}

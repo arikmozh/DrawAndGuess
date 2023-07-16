@@ -1,0 +1,12 @@
+.rounded {
+    border: 1px solid red;
+    background-color: white;
+
+    &.canvas-disabled {
+        cursor: not-allowed;
+    }
+
+    &.canvas-enabled {
+        cursor: url("../../imgs/pencil-cursor.svg") 1 32, auto;
+    }
+}

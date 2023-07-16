@@ -1,0 +1,61 @@
+.home-page {
+  min-height: 100vh;
+  background-color: white;
+
+  .header {
+    width: 100%;
+    background-color: cornflowerblue;
+    height: 150px;
+    font-size: 80px;
+    font-family: "caveat";
+    color: white;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    p {
+      font-size: 60px;
+
+      @media (min-width: 700px) {
+        font-size: 80px;
+      }
+    }
+
+    img {
+      width: 80px;
+      @media (min-width: 700px) {
+        font-size: 100px;
+      }
+    }
+  }
+
+  .form-wrapper {
+    margin-top: 150px;
+    h1 {
+      margin-bottom: 25px;
+      font-size: 40px;
+      font-family: "caveat";
+
+      @media (min-width: 700px) {
+        font-size: 70px;
+      }
+    }
+    .form {
+      gap: 30px;
+
+      .form-input {
+        padding: 10px;
+        outline: none;
+        font-size: 16px;
+
+        @media (min-width: 700px) {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}
