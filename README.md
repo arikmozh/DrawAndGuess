@@ -2,7 +2,7 @@
 
 React.js | Node.js | Express.js | Socket.io | Multiplayer Game
 
-Live link: https://pictionary-yuval.herokuapp.com/
+Live link: https://drawguess-4b3298e6a8f4.herokuapp.com/
 
 ### Features
 
